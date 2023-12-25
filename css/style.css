@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+a {
+    width: 100%;
+    text-decoration: none;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+
+header, main {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.adicionar {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.botao{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 10 15;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td {
+    color: #333;
+    font-weight: 600;
+}
+
+tr:nth-child(even){
+    background-color: #b5b5b5;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.botao_header {
+    background-color: blueviolet;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.botao_return {
+    background-color: blueviolet;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
